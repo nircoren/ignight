@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import { Metadata } from "next";
 import Process from "@/components/Process";
 import Cta from "@/components/Cta";
+import FoundersNote from "@/components/FoundersNote";
 import SocialProof from "@/components/SocialProof";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
@@ -31,6 +32,7 @@ const Home: React.FC<I18Props> = async ({ params: { locale } }) => {
         <SocialProof locale={locale}/>
         <FAQ locale={locale}/>
         <Cta />
+        <FoundersNote locale={locale}/>
         {/* <Benefits /> */}
         {/* <Pricing /> */}
         <Contact />

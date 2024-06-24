@@ -33,7 +33,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="lg:max-w-md mx-auto bg-primaryBg text-primaryText p-8 rounded-lg shadow-lg">
+    <div className="lg:max-w-md mx-auto bg-secondaryBg text-secondaryText p-8 rounded-lg shadow-lg">
       <form onSubmit={handleSubmit}>
         <div className="mb-4 ">
           <label className="block mb-2" htmlFor="name">
@@ -78,7 +78,7 @@ const ContactForm: React.FC = () => {
         </div>
         <button
           type="submit"
-          className="w-full bg-secondaryBg text-secondaryText py-2 rounded font-semibold "
+          className="w-full bg-primaryBg text-primaryText py-2 rounded font-semibold "
         >
           {t('send')}
         </button>

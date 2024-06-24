@@ -14,11 +14,11 @@ const FAQ = async ({ locale }: any) => {
       <div className="container grid lg:grid-cols-2 sm:grid-cols-1">
         <div className="container items-left">
           <h3>{t("header")}</h3>
-          <p className="max-w-screen-sm  mb-8">
+          {/* <p className="max-w-screen-sm  mb-8">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
             deserunt optio quod, error totam maiores sit et? Provident
             praesentium
-          </p>
+          </p> */}
         </div>
         <div className="container">
           <div id="accordion">

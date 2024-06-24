@@ -13,11 +13,11 @@ const ProcessStep: React.FC<ProcessStepProps> = ({
   description,
 }) => (
   <div className="flex items-start mb-4 md:mb-6">
-    <div className="flex-shrink-0 w-6 h-6 bg-purple rounded-full flex items-center justify-center text-md mr-4">
-      {number}
+    <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center text-md mr-4">
+      {number}.
     </div>
     <div>
-      <h3 className="mb-0  font-normal text-lg">{title}</h3>
+      <h3 className="mb-0 font-normal text-lg">{title}</h3>
       <p className="text-gray-400 font-normal">{description}</p>
     </div>
   </div>

@@ -16,7 +16,7 @@ const Cta = async ({ locale }: any) => {
         {/* <p className="text-base max-w-screen-sm text-center  mb-8">
           Start summarizing YT comments in less than a minute.
         </p> */}
-        <div className="w-3/5 flex justify-center">
+        <div className="">
           <ShortForm/> 
         </div>
       </div>

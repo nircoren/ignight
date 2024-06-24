@@ -28,7 +28,7 @@ const Hero = () => {
                   <p className="mb-5 text-base !leading-relaxed sm:text-lg md:text-lg">
                     {t("hero:app_desc")}
                   </p>
-                  <div className="mb-5 flex gap-7">
+                  <div className="mb-5 md:flex gap-7">
                       <AvatarGroup />
                     <div className="max-w-xs">
                       <Rating />
